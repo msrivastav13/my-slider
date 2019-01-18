@@ -1,0 +1,18 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+</head>
+<body>
+    <template id="mySlider">
+        <div>
+            <p>Default range slider:</p>
+            <input type="range" min="1" max="100" value="50">
+        </div>
+    </template>
+</body>
+<script>
+    let template = document.getElementById('mySlider');
+    let templateContent = template.content;
+    document.body.appendChild(templateContent);
+</script>
+</html>
